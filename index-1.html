@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdulbayes Orya | Programmer in Kabul</title>
+<meta name="description" content="Programmer in Kabul, Afghanistan. Websites, online databases, Python scripts and Office documents.">
+<style>
+:root{--bg:#000;--panel:#0d0d0d;--line:#2a2410;--text:#f2ede0;--muted:#a9a290;--gold:#d4a62a;--red:#c8202a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:17px/1.7 "Segoe UI",Tahoma,"Noto Naskh Arabic",Arial,sans-serif}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(0,0,0,.92);z-index:5}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:58px}
+nav a{text-decoration:none;color:var(--muted);margin-inline-start:18px;font-size:15px}
+nav a:hover{color:var(--gold)}
+#lang{background:none;border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;cursor:pointer;font:inherit;font-size:14px;margin-inline-start:18px}
+.hero{padding:90px 0 70px;border-bottom:1px solid var(--line)}
+.hero h1{font:700 clamp(40px,10vw,84px)/1.05 Georgia,"Noto Naskh Arabic",serif;letter-spacing:-.02em}
+.hero h1 span{display:block;color:var(--gold)}
+.hero p.role{margin:22px 0 30px;color:var(--muted);font-size:19px;max-width:30em}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 24px;border-radius:6px;text-decoration:none;font-weight:600;border:1px solid var(--gold)}
+.btn.main{background:var(--gold);color:#000}
+.btn.main:hover{background:var(--red);border-color:var(--red);color:#fff}
+.btn.alt:hover{border-color:var(--red);color:var(--red)}
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+h2{font:700 28px/1.2 Georgia,"Noto Naskh Arabic",serif;margin-bottom:22px;color:var(--gold)}
+p{max-width:40em;color:#d8d2c2}
+.skills{display:flex;flex-wrap:wrap;gap:10px;list-style:none}
+.skills li{border:1px solid var(--line);background:var(--panel);padding:7px 16px;border-radius:30px;font-size:15px}
+.list{display:grid;gap:14px;list-style:none;max-width:40em}
+.list li{padding-inline-start:18px;border-inline-start:3px solid var(--red)}
+.list b{display:block;color:var(--text)}
+.list span{color:var(--muted);font-size:15px}
+.proj{background:var(--panel);border:1px solid var(--line);border-inline-start:3px solid var(--gold);padding:22px;max-width:40em}
+.proj h3{font-size:20px;margin-bottom:6px}
+.proj p{margin-bottom:14px}
+.contact a.line{display:block;padding:10px 0;text-decoration:none;border-bottom:1px solid var(--line);max-width:30em}
+.contact a.line:hover{color:var(--gold)}
+footer{padding:30px 0;color:var(--muted);font-size:14px}
+[dir=rtl] body{font-size:18px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <strong>A. Orya</strong>
+  <div>
+    <nav style="display:inline">
+      <a href="#about" data-t="nAbout">About</a><a href="#work" data-t="nWork">Work</a><a href="#contact" data-t="nContact">Contact</a>
+    </nav>
+    <button id="lang" type="button">دری</button>
+  </div>
+</div></header>
+
+<main>
+<div class="hero"><div class="wrap">
+  <h1>Abdulbayes <span>Orya</span></h1>
+  <p class="role" data-t="role">Programmer in Kabul. I build websites, online databases and Python tools for individuals and small businesses.</p>
+  <div class="btns">
+    <a class="btn main" href="#contact" data-t="hire">Start a project</a>
+    <a class="btn alt" href="#work" data-t="see">See my work</a>
+  </div>
+</div></div>
+
+<section id="about"><div class="wrap">
+  <h2 data-t="hAbout">About me</h2>
+  <p data-t="about">I am a programmer based in Kabul, Afghanistan. I enjoy reading and learning, and I work with Python, HTML5, CSS and online databases. If you have an idea or a need, feel free to get in touch.</p>
+  <h2 style="margin-top:44px" data-t="hSkills">Skills</h2>
+  <ul class="skills"><li>Python</li><li>HTML5</li><li>CSS</li><li data-t="s1">Website creation</li><li data-t="s2">Online databases</li><li data-t="s3">Office package</li></ul>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <h2 data-t="hServ">Services</h2>
+  <ul class="list">
+    <li><b data-t="v1">Websites</b><span data-t="v1d">Personal, business and portfolio sites, simple and clear.</span></li>
+    <li><b data-t="v2">Online databases</b><span data-t="v2d">Set up and manage organized data systems.</span></li>
+    <li><b data-t="v3">Python scripts</b><span data-t="v3d">Small tools that automate repeated work.</span></li>
+    <li><b data-t="v4">Office documents</b><span data-t="v4d">Documents, spreadsheets and presentations.</span></li>
+  </ul>
+</div></section>
+
+<section id="work"><div class="wrap">
+  <h2 data-t="hWork">Projects</h2>
+  <div class="proj">
+    <h3>Daily Routine Tracker</h3>
+    <p data-t="pDesc">A personal website with an Afghan Dari calendar, a Friday program and a course timetable.</p>
+    <!-- Replace # with the live link of your tracker -->
+    <a class="btn alt" href="#" id="trackerLink" data-t="open">Open live site</a>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2 data-t="hContact">Contact</h2>
+  <p data-t="cText" style="margin-bottom:18px">Have an idea? Send a message and we will talk about it.</p>
+  <a class="line" href="tel:+93773288121">Phone: 773288121</a>
+  <a class="line" href="https://wa.me/93773288121">WhatsApp</a>
+  <a class="line" href="mailto:abdulbayesorya@gmail.com">abdulbayesorya@gmail.com</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="y"></span> Abdulbayes Orya · Kabul, Afghanistan</div></footer>
+
+<script>
+var T={
+ en:{nAbout:"About",nWork:"Work",nContact:"Contact",
+  role:"Programmer in Kabul. I build websites, online databases and Python tools for individuals and small businesses.",
+  hire:"Start a project",see:"See my work",hAbout:"About me",
+  about:"I am a programmer based in Kabul, Afghanistan. I enjoy reading and learning, and I work with Python, HTML5, CSS and online databases. If you have an idea or a need, feel free to get in touch.",
+  hSkills:"Skills",s1:"Website creation",s2:"Online databases",s3:"Office package",hServ:"Services",
+  v1:"Websites",v1d:"Personal, business and portfolio sites, simple and clear.",
+  v2:"Online databases",v2d:"Set up and manage organized data systems.",
+  v3:"Python scripts",v3d:"Small tools that automate repeated work.",
+  v4:"Office documents",v4d:"Documents, spreadsheets and presentations.",
+  hWork:"Projects",pDesc:"A personal website with an Afghan Dari calendar, a Friday program and a course timetable.",open:"Open live site",
+  hContact:"Contact",cText:"Have an idea? Send a message and we will talk about it.",btn:"دری"},
+ fa:{nAbout:"درباره",nWork:"کارها",nContact:"تماس",
+  role:"برنامه‌نویس در کابل. برای اشخاص و کسب‌وکارهای کوچک وب‌سایت، دیتابیس آنلاین و ابزارهای پایتون می‌سازم.",
+  hire:"شروع یک پروژه",see:"دیدن کارهای من",hAbout:"دربارهٔ من",
+  about:"من یک برنامه‌نویس هستم و در کابل، افغانستان زندگی می‌کنم. مطالعه و یادگیری را دوست دارم و با پایتون، HTML5، CSS و دیتابیس‌های آنلاین کار می‌کنم. اگر ایده یا نیازی دارید، خوشحال می‌شوم با من در تماس شوید.",
+  hSkills:"مهارت‌ها",s1:"ساخت وب‌سایت",s2:"دیتابیس آنلاین",s3:"بستهٔ آفیس",hServ:"خدمات",
+  v1:"وب‌سایت",v1d:"وب‌سایت شخصی، تجارتی و پورتفولیو، ساده و روشن.",
+  v2:"دیتابیس آنلاین",v2d:"ایجاد و مدیریت سیستم‌های منظم دیتا.",
+  v3:"اسکریپت پایتون",v3d:"ابزارهای کوچک برای خودکار کردن کارهای تکراری.",
+  v4:"اسناد آفیس",v4d:"اسناد، جدول‌ها و پرزنتیشن‌ها.",
+  hWork:"پروژه‌ها",pDesc:"یک وب‌سایت شخصی با تقویم دری افغانی، برنامهٔ روز جمعه و تقسیم‌اوقات کورس‌ها.",open:"باز کردن سایت",
+  hContact:"تماس",cText:"ایده‌ای دارید؟ پیام بدهید تا دربارهٔ آن صحبت کنیم.",btn:"English"}
+};
+var cur="en";
+function setLang(l){
+  cur=l;var d=T[l];
+  document.documentElement.lang=l==="fa"?"fa":"en";
+  document.documentElement.dir=l==="fa"?"rtl":"ltr";
+  document.querySelectorAll("[data-t]").forEach(function(e){e.textContent=d[e.dataset.t]});
+  document.getElementById("lang").textContent=d.btn;
+  try{localStorage.setItem("lang",l)}catch(e){}
+}
+document.getElementById("lang").onclick=function(){setLang(cur==="en"?"fa":"en")};
+document.getElementById("y").textContent=new Date().getFullYear();
+try{var s=localStorage.getItem("lang");if(s==="fa")setLang("fa")}catch(e){}
+</script>
+</body>
+</html>
